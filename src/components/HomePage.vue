@@ -12,7 +12,7 @@
           <div class="flex gap-2">
             <img src="../assets/header/Icon_i.png" alt="!" />
             <span
-              class="text-[15px] text-blue tracking-[10%] leading-[154.5%] uppercase"
+              class="text-[15px] text-blue tracking-[10%] leading-[154.5%] uppercase font-semibold"
               >Welcome to Beautyness!!!</span
             >
           </div>
@@ -28,7 +28,7 @@
             have suffered alteration in some form.
           </p>
           <button
-            class="max-w-[250px] px-9 py-6 bg-blue uppercase text-white font-bold text-[14px] leading-4 tracking-widest"
+            class="max-w-[250px] py-6 bg-blue uppercase text-white font-bold text-[14px] leading-4 tracking-[1.68px]"
           >
             Make a reservation
           </button>
@@ -57,7 +57,7 @@
           sure hidden in the middle of text.
         </p>
         <button
-          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] -tracking-tighter leading-4 uppercase max-w-max border-2 border-solid border-blue"
+          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] tracking-[1.68px] leading-4 uppercase max-w-max border-2 border-solid border-blue"
         >
           READ MORE
         </button>
@@ -74,7 +74,7 @@
           sure hidden in the middle of text.
         </p>
         <button
-          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] -tracking-tighter leading-4 uppercase max-w-max border-2 border-solid border-blue"
+          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] tracking-[1.68px] leading-4 uppercase max-w-max border-2 border-solid border-blue"
         >
           READ MORE
         </button>
@@ -91,7 +91,7 @@
           sure hidden in the middle of text.
         </p>
         <button
-          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] -tracking-tighter leading-4 uppercase max-w-max border-2 border-solid border-blue"
+          class="px-[43px] pb-[19px] pt-[18px] font-extrabold text-[14px] tracking-[1.68px] leading-4 uppercase max-w-max border-2 border-solid border-blue"
         >
           READ MORE
         </button>
@@ -108,7 +108,8 @@
         />
         <div class="max-w-[529px] font-body">
           <div class="flex flex-col mb-9">
-            <span class="text-title-sm uppercase mb-[9px] text-[#5C8692]"
+            <span
+              class="text-title-sm uppercase mb-[9px] text-[#5C8692] font-semibold"
               >About Us</span
             >
             <h3 class="text-2xl max-w-[435px] mb-4 font-display">
@@ -158,7 +159,7 @@
     <div class="max-w-container mx-auto pt-[145px] font-body">
       <div class="flex flex-col gap-[9px] items-center mb-[50px]">
         <span
-          class="text-title-sm uppercase tracking-wider mb-[9px] text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider mb-[9px] text-center text-[#5C8692] font-semibold"
           >Our Services</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">
@@ -205,7 +206,7 @@
             </p>
           </div>
           <div
-            class="flex flex-col pb-[22px] border-b border-solid border-[#555555] mb-4"
+            class="flex flex-col pb-[22px] border-b border-solid border-[#555555]"
           >
             <h4 class="text-xs font-display font-extrabold">
               Sauna relax .......................................
@@ -216,7 +217,7 @@
             </p>
           </div>
           <button
-            class="border-2 border-solid border-[#5C8692] px-[34px] py-6 text-black text-[14px] font-extrabold tracking-[12%] leading-[125%] max-w-[250px]"
+            class="border-2 border-solid border-[#5C8692] pt-[23px] pb-[24px] text-black text-[14px] font-extrabold tracking-[1.68px] leading-[125%] max-w-[249px]"
           >
             GET AN APPOINTMENT
           </button>
@@ -260,7 +261,7 @@
             </p>
           </div>
           <div
-            class="flex flex-col pb-[22px] border-b border-solid border-[#555555] mb-4"
+            class="flex flex-col pb-[22px] border-b border-solid border-[#555555]"
           >
             <h4 class="text-xs font-display font-extrabold">
               Sauna relax .......................................
@@ -271,7 +272,7 @@
             </p>
           </div>
           <button
-            class="border-2 border-solid border-[#5C8692] px-[34px] py-6 text-black text-[14px] font-extrabold tracking-[12%] leading-[125%] max-w-[250px]"
+            class="border-2 border-solid border-[#5C8692] pt-[23px] pb-[24px] text-black text-[14px] font-extrabold tracking-[1.68px] leading-[125%] max-w-[249px]"
           >
             GET AN APPOINTMENT
           </button>
@@ -287,7 +288,7 @@
     <div class="max-w-container mx-auto py-36 font-body">
       <div class="flex flex-col gap-[2px] items-center mb-10">
         <span
-          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] font-semibold"
           >Testimonials</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">
@@ -374,7 +375,7 @@
     <div class="max-w-container mx-auto pt-36 font-body pb-40">
       <div class="flex flex-col gap-[9px] items-center mb-11">
         <span
-          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] font-semibold"
           >Our Awesome Benefits</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">
@@ -459,7 +460,8 @@
         <div
           class="flex flex-col gap-[9px] items-start mb-[14px] max-w-[435px]"
         >
-          <span class="text-title-sm uppercase tracking-wider text-[#5C8692]"
+          <span
+            class="text-title-sm uppercase tracking-wider text-[#5C8692] font-semibold"
             >Flat Discount
           </span>
           <h3 class="text-2xl font-display max-w-[660px]">
@@ -531,7 +533,7 @@
         </div>
       </div>
       <div
-        class="bg-white px-[75px] py-[66px] flex flex-col gap-[15px] shadow-md w-[550px]"
+        class="bg-white px-[75px] py-[66px] flex flex-col gap-[15px] shadow-xl w-[550px]"
       >
         <div class="relative">
           <label
@@ -629,7 +631,7 @@
           />
         </div>
         <button
-          class="px-[109px] py-6 bg-blue uppercase text-white font-bold text-[14px] leading-[125%] tracking-widest"
+          class="py-6 bg-blue uppercase text-white font-bold text-[14px] leading-[125%] tracking-[1.68px]"
         >
           GET AN APPOINTMENT
         </button>
@@ -642,7 +644,8 @@
         <div
           class="flex flex-col gap-[9px] items-center mb-[14px] max-w-[435px]"
         >
-          <span class="text-title-sm uppercase tracking-wider text-[#5C8692]"
+          <span
+            class="text-title-sm uppercase tracking-wider text-[#5C8692] font-semibold"
             >Our Blog
           </span>
           <h3 class="text-2xl font-display max-w-[660px]">Latest Updates</h3>
@@ -654,7 +657,7 @@
               class="bg-[#EDF5F7] px-[26px] py-[30px] flex flex-col items-start"
             >
               <span
-                class="text-title-sm leading-[125%] text-[13px] uppercase tracking-wider text-[#5C8692] font-bold mb-2"
+                class="text-[13px] leading-[125%] uppercase tracking-[0.78px] text-[#5C8692] font-bold mb-2"
                 >11TH AUGUST 2021
                 <span class="text-[#272D32] ml-[7px] mr-[10px] text-xs">—</span>
                 BY PETER BERGSON
@@ -674,7 +677,7 @@
               class="bg-[#EDF5F7] px-[26px] py-[30px] flex flex-col items-start"
             >
               <span
-                class="text-title-sm leading-[125%] text-[13px] uppercase tracking-wider text-[#5C8692] font-bold mb-2"
+                class="leading-[125%] text-[13px] uppercase tracking-[0.78px] text-[#5C8692] font-bold mb-2"
                 >11TH AUGUST 2021
                 <span class="text-[#272D32] ml-[7px] mr-[10px] text-xs">—</span>
                 BY PETER BERGSON
@@ -694,7 +697,7 @@
               class="bg-[#EDF5F7] px-[26px] py-[30px] flex flex-col items-start"
             >
               <span
-                class="text-title-sm leading-[125%] text-[13px] uppercase tracking-wider text-[#5C8692] font-bold mb-2"
+                class="leading-[125%] text-[13px] uppercase tracking-[0.78px] text-[#5C8692] font-bold mb-2"
                 >11TH AUGUST 2021
                 <span class="text-[#272D32] ml-[7px] mr-[10px] text-xs">—</span>
                 BY PETER BERGSON
@@ -710,7 +713,7 @@
           </div>
         </div>
         <button
-          class="uppercase px-10 pb-6 pt-[23px] border-2 border-solid border-[#5C8692] text-black text-[14px] font-extrabold tracking-[12%] leading-[125%]"
+          class="uppercase px-10 pb-6 pt-[23px] border-2 border-solid border-[#5C8692] text-black text-[14px] font-extrabold tracking-[1.68px] leading-[125%]"
         >
           VIEW MORE STORIES
         </button>

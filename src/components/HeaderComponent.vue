@@ -12,7 +12,7 @@
 
       <div class="flex flex-row gap-3 items-center">
         <img src="../assets/header/Phone.png" alt="phone" class="w-5 h-5" />
-        <span class="font-body text-xs whitespace-nowrap">
+        <span class="font-body text-xs whitespace-nowrap font-semibold">
           Call Us - (+22) 123 456 7890</span
         >
       </div>
