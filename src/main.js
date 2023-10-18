@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/style.css";
 import { createRouter, createWebHistory } from "vue-router";
+import components from "@/components/UI/index";
 
 import HomePage from "@/components/HomePage.vue";
 import AboutPage from "@/components/AboutPage.vue";
@@ -52,4 +53,10 @@ const router = createRouter({
   ],
 });
 
-createApp(App).use(router).mount("#app");
+const app = createApp(App);
+
+components.forEach((component) => {
+  app.component(component.name, component);
+});
+
+app.use(router).mount("#app");

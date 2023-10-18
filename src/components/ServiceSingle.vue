@@ -10,7 +10,8 @@
       class="flex flex-col items-center pt-[118px] pb-[91px] font-body text-white"
     >
       <div class="flex flex-col items-center max-w-[650px]">
-        <span class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-white font-semibold mb-2"
           >The Perfect Service
         </span>
         <h2 class="font-display text-3xl text-center mb-8">
@@ -31,7 +32,7 @@
       >
         <div class="flex flex-col items-start justify-start">
           <span
-            class="text-title-sm uppercase tracking-wider text-start text-[#5C8692] mb-[6px]"
+            class="text-title-sm uppercase tracking-wider text-start text-[#5C8692] mb-[6px] font-semibold"
             >What Includes?
           </span>
           <h2 class="font-display text-3xl text-start mb-3">
@@ -111,7 +112,7 @@
     >
       <div class="flex flex-col items-center justify-start">
         <span
-          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] mb-[6px]"
+          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] mb-[6px] font-semibold"
           >Easy & affordable Booking
         </span>
         <h2 class="font-display text-2xl text-center mb-3">Membership Cards</h2>
@@ -257,7 +258,8 @@
   <div class="bg-[#EBF3F5]">
     <div class="max-w-[1010px] mx-auto py-32 flex flex-col items-center">
       <div class="flex flex-col items-center max-w-[622px] mb-12">
-        <span class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
           >SCHEDULE YOUR PRESENCE
         </span>
         <h2 class="font-display text-3xl text-center mb-[25px]">
@@ -271,12 +273,16 @@
       <div
         class="bg-white px-[100px] py-[83px] grid grid-cols-2 gap-[15px] shadow-md"
       >
-        <div class="relative">
+        <div class="relative max-h-[65px]">
           <label
             v-if="!isFocused.name"
             for="name"
             class="absolute left-[15px] top-1/2 -translate-y-1/2 flex gap-[15px] pointer-events-none"
-            ><img src="../assets/header/IconUser.png" alt="User" />
+            ><img
+              src="../assets/header/IconUser.png"
+              alt="User"
+              class="object-contain"
+            />
             <span class="text-xs leading-[160%] tracking-normal text-black-400"
               >Name</span
             ></label
@@ -290,12 +296,16 @@
             @blur="isFocused.name = false"
           />
         </div>
-        <div class="relative">
+        <div class="relative max-h-[65px]">
           <label
             v-if="!isFocused.email"
             for="name"
             class="absolute left-[15px] top-1/2 -translate-y-1/2 flex gap-[15px] pointer-events-none"
-            ><img src="../assets/header/IconMail.png" alt="User" />
+            ><img
+              src="../assets/header/IconMail.png"
+              alt="User"
+              class="object-contain"
+            />
             <span class="text-xs leading-[160%] tracking-normal text-black-400"
               >Email</span
             ></label
@@ -309,12 +319,16 @@
             @blur="isFocused.email = false"
           />
         </div>
-        <div class="relative">
+        <div class="relative max-h-[65px]">
           <label
             v-if="!isFocused.phone"
             for="name"
             class="absolute left-[15px] top-1/2 -translate-y-1/2 flex gap-[15px] pointer-events-none"
-            ><img src="../assets/header/IconPhone.png" alt="User" />
+            ><img
+              src="../assets/header/IconPhone.png"
+              alt="User"
+              class="object-contain"
+            />
             <span class="text-xs leading-[160%] tracking-normal text-black-400"
               >Phone</span
             ></label
@@ -328,12 +342,16 @@
             @blur="isFocused.phone = false"
           />
         </div>
-        <div class="relative">
+        <div class="relative max-h-[65px]">
           <label
             v-if="!isFocused.service"
             for="name"
             class="absolute left-[15px] top-1/2 -translate-y-1/2 flex gap-[15px] pointer-events-none"
-            ><img src="../assets/header/IconBook.png" alt="User" />
+            ><img
+              src="../assets/header/IconBook.png"
+              alt="User"
+              class="object-contain"
+            />
             <span class="text-xs leading-[160%] tracking-normal text-black-400"
               >Service You Need</span
             ></label
@@ -347,12 +365,16 @@
             @blur="isFocused.service = false"
           />
         </div>
-        <div class="relative">
+        <div class="relative max-h-[65px]">
           <label
             v-if="!isFocused.note"
             for="name"
             class="absolute left-[15px] top-[18px] flex gap-[15px] pointer-events-none"
-            ><img src="../assets/header/IconEdit.svg" alt="User" />
+            ><img
+              src="../assets/header/IconEdit.svg"
+              alt="User"
+              class="object-contain"
+            />
             <span class="text-xs leading-[160%] tracking-normal text-black-400"
               >Any Note For Us</span
             ></label
@@ -384,7 +406,7 @@
     <div class="max-w-container mx-auto pt-36 font-body pb-40">
       <div class="flex flex-col gap-[9px] items-center mb-11">
         <span
-          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] font-semibold"
           >Our Awesome Benefits</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">

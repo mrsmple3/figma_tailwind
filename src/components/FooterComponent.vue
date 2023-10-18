@@ -3,7 +3,7 @@
     <div class="bg-blue-800">
       <div class="max-w-container mx-auto font-body py-[66px]">
         <div
-          class="flex justify-between mb-[52px] pb-[52px] border-b border-solid border-white"
+          class="flex justify-between mb-[52px] pb-[52px] border-b border-solid border-white border-opacity-[0.15]"
         >
           <div class="flex gap-4 items-center font-display text-white">
             <img src="../assets/header/Logo.png" alt="LOGO" class="w-16" />

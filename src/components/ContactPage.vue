@@ -10,7 +10,8 @@
       class="flex flex-col items-center pt-[172px] pb-[133px] font-body text-white"
     >
       <div class="flex flex-col items-center max-w-[650px]">
-        <span class="text-title-sm uppercase tracking-wider text-white mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-white mb-2 font-semibold"
           >GET IN TOUCH WITH US
         </span>
         <h2 class="font-display text-3xl text-center">
@@ -209,7 +210,7 @@
           />
         </div>
         <button
-          class="px-[109px] py-6 bg-blue uppercase text-white font-bold text-[14px] leading-[125%] tracking-widest"
+          class="px-[109px] py-6 bg-blue uppercase text-white font-bold text-[14px] leading-[125%] tracking-[1.68px]"
         >
           GET AN APPOINTMENT
         </button>

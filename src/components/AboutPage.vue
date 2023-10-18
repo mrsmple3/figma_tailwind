@@ -10,7 +10,8 @@
       class="flex flex-col items-center pt-[118px] pb-[91px] font-body text-white"
     >
       <div class="flex flex-col items-center max-w-[650px]">
-        <span class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-white mb-2 font-semibold"
           >SHORT STORY ABOUT US
         </span>
         <h2 class="font-display text-3xl text-center mb-8">
@@ -29,7 +30,7 @@
       <div class="flex flex-col items-center justify-start gap-[45px]">
         <div class="flex flex-col items-center max-w-[660px]">
           <span
-            class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+            class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
             >Our Values
           </span>
           <h3 class="font-display text-2xl text-center">
@@ -67,9 +68,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="flex gap-8 justify-start items-start border-b border-solid border-[#D3D3D3] pb-9"
-          >
+          <div class="flex gap-8 justify-start items-start">
             <img src="@/assets/about/IconOil.png" alt="Person" />
             <div
               class="flex flex-col justify-start items-start gap-2 max-w-[460px]"
@@ -99,7 +98,7 @@
           class="self-end flex flex-col items-start justify-start max-w-[508px]"
         >
           <span
-            class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+            class="text-title-sm uppercase tracking-wider text-white mb-2 font-semibold"
             >About Us
           </span>
           <h3 class="font-display text-2xl text-white mb-[14px]">
@@ -121,7 +120,8 @@
         class="flex flex-col items-center justify-start gap-[33px] font-body"
       >
         <div class="flex flex-col items-center max-w-[660px] gap-[9px]">
-          <span class="text-title-sm uppercase tracking-wider text-[#5C8692]"
+          <span
+            class="text-title-sm uppercase tracking-wider text-[#5C8692] font-semibold"
             >Meet our Experts
           </span>
           <h3 class="font-display text-2xl text-center">
@@ -138,7 +138,7 @@
                 Sherlin D’Cruz
               </h4>
               <span
-                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
                 >Beautyness Expert
               </span>
               <p
@@ -175,7 +175,7 @@
                 Maria Sharapova
               </h4>
               <span
-                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
                 >Beautyness Expert
               </span>
               <p
@@ -212,7 +212,7 @@
                 Angeline Jenifer
               </h4>
               <span
-                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+                class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
                 >Beautyness Expert
               </span>
               <p
@@ -248,7 +248,7 @@
     <div class="max-w-container mx-auto py-36 font-body">
       <div class="flex flex-col gap-[2px] items-center mb-10">
         <span
-          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider text-center text-[#5C8692] font-semibold"
           >Testimonials</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">

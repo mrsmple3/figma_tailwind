@@ -665,7 +665,11 @@
               <h5 class="text-base font-display mb-[14px]">
                 The energy efficiency of the hydrotherapy or swim
               </h5>
-              <p class="text-xs text-black-400">
+              <p
+                class="text-xs text-black-400 cursor-pointer max-w-[317px]"
+                :class="{ three_note: isTruncated }"
+                @click="isTruncated = !isTruncated"
+              >
                 The point of using Lorem Ipsum hiter that using making it look
                 like others readable will get end.
               </p>
@@ -685,7 +689,11 @@
               <h5 class="text-base font-display mb-[14px]">
                 The energy efficiency of the hydrotherapy or swim
               </h5>
-              <p class="text-xs text-black-400">
+              <p
+                class="text-xs text-black-400 cursor-pointer max-w-[317px]"
+                :class="{ three_note: isTruncated }"
+                @click="isTruncated = !isTruncated"
+              >
                 The point of using Lorem Ipsum hiter that using making it look
                 like others readable will get end.
               </p>
@@ -705,7 +713,11 @@
               <h5 class="text-base font-display mb-[14px]">
                 The energy efficiency of the hydrotherapy or swim
               </h5>
-              <p class="text-xs text-black-400">
+              <p
+                class="text-xs text-black-400 cursor-pointer max-w-[317px]"
+                :class="{ three_note: isTruncated }"
+                @click="isTruncated = !isTruncated"
+              >
                 The point of using Lorem Ipsum hiter that using making it look
                 like others readable will get end.
               </p>
@@ -740,6 +752,7 @@ export default {
         service: false,
         note: false,
       },
+      isTruncated: true,
     };
   },
 };
@@ -751,5 +764,11 @@ export default {
 }
 .offer-img-right {
   z-index: -1;
+}
+.three_note {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 </style>

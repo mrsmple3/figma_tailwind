@@ -10,7 +10,8 @@
       class="flex flex-col items-center pt-[118px] pb-[91px] font-body text-white"
     >
       <div class="flex flex-col items-center max-w-[650px]">
-        <span class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-white font-semibold mb-2"
           >Our Services
         </span>
         <h2 class="font-display text-3xl text-center mb-8">
@@ -33,7 +34,7 @@
     <div class="max-w-container mx-auto pt-[145px] font-body">
       <div class="flex flex-col gap-[9px] items-center mb-[50px]">
         <span
-          class="text-title-sm uppercase tracking-wider mb-[9px] text-center text-[#5C8692]"
+          class="text-title-sm uppercase tracking-wider mb-[9px] text-center text-[#5C8692] font-semibold"
           >Our Services</span
         >
         <h3 class="text-2xl font-display text-center max-w-[660px]">
@@ -358,7 +359,8 @@
       class="max-w-container mx-auto flex flex-col items-center py-[131px] font-body"
     >
       <div class="flex flex-col items-center">
-        <span class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2"
+        <span
+          class="text-title-sm uppercase tracking-wider text-[#5C8692] mb-2 font-semibold"
           >Flat Discount
         </span>
         <h2 class="font-display text-3xl text-center mb-[14px] max-w-[680px]">
