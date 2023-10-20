@@ -24,7 +24,7 @@
             <li class="cursor-pointer">Home</li>
           </router-link>
           <div>
-            <li
+            <lis
               class="flex justify-between items-center gap-1 cursor-pointer relative"
               @mouseover="isOver = true"
               @mouseleave="isOver = false"
@@ -42,7 +42,7 @@
                 <div
                   class="flex flex-col items-start gap-2 border-r-2 border-solid border-blue-400"
                 >
-                  <router-link to="/service">
+                  <router-link to="/services">
                     <span
                       class="text-xs text-black font-semibold whitespace-nowrap p-3"
                       >Service</span
@@ -103,7 +103,7 @@
                   >
                 </router-link>
               </div>
-            </li>
+            </lis>
           </div>
 
           <router-link to="/about">
