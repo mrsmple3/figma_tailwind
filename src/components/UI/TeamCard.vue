@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center justify-start gap-[25px]">
-    <img :src="imageSrc" :alt="imageAlt" />
+    <img :src="require('@/assets/about/' + imageSrc)" :alt="imageAlt" />
     <div class="max-w-[336px] mx-auto flex flex-col items-center justify-start">
       <h4 class="text-[24px] font-bold font-display mb-1">{{ name }}</h4>
       <span

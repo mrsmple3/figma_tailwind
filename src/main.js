@@ -10,6 +10,10 @@ import ContactPage from "@/components/ContactPage.vue";
 import ServicePage from "@/components/ServicePage.vue";
 import ServiceSingle from "@/components/ServiceSingle.vue";
 import TeamPage from "@/components/TeamPage.vue";
+import TeamSingle from "@/components/TeamSingle.vue";
+import BlogPage from "@/components/BlogPage.vue";
+import BlogSingle from "@/components/BlogSingle.vue";
+import LocationPage from "@/components/LocationPage.vue";
 import NotFoundPage from "@/components/NotFoundPage.vue";
 
 const router = createRouter({
@@ -49,6 +53,26 @@ const router = createRouter({
       name: "NotFound",
       path: "/:catchAll(.*)",
       component: NotFoundPage,
+    },
+    {
+      name: "Team Single",
+      path: "/team-single",
+      component: TeamSingle,
+    },
+    {
+      name: "Blog",
+      path: "/blog",
+      component: BlogPage,
+    },
+    {
+      name: "Blog Single",
+      path: "/blog-single",
+      component: BlogSingle,
+    },
+    {
+      name: "Location",
+      path: "/location",
+      component: LocationPage,
     },
   ],
 });

@@ -38,8 +38,8 @@
             class="text-title-sm font-semibold uppercase tracking-wider text-green-200 mb-[9px]"
             >GET IN TOUCH WITH US
           </span>
-          <h2 class="font-display text-3xl text-start max-w-[435px] mb-[23px]">
-            We Are Ready To Assist You In 24x7
+          <h2 class="font-display text-3xl text-start max-w-[470px] mb-[23px]">
+            We are here to help you always...
           </h2>
           <p class="text-xs text-black text-start mb-[43px]">
             There are many variations of passages of Lorem Ipsum available, but

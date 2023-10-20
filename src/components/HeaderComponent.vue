@@ -37,13 +37,69 @@
               />
               <div
                 v-show="isOver"
-                class="flex felx-col items-start px-4 py-2 absolute top-7 -left-4 max-w-max transition-all"
+                class="z-20 flex items-center px-4 py-2 absolute top-7 -left-24 max-w-max transition-all bg-[#EFFCFF] border-2 border-solid border-blue-400"
               >
-                <router-link to="/service-single">
+                <div
+                  class="flex flex-col items-start gap-2 border-r-2 border-solid border-blue-400"
+                >
+                  <router-link to="/service">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Service</span
+                    >
+                  </router-link>
+                  <hr
+                    class="border-[0.5px] border-solid border-blue-400 w-full"
+                  />
+                  <router-link to="/service-single">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Service-Single</span
+                    >
+                  </router-link>
+                </div>
+                <div
+                  class="flex flex-col items-start gap-2 border-r-2 border-solid border-blue-400"
+                >
+                  <router-link to="/team">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Team</span
+                    >
+                  </router-link>
+                  <hr
+                    class="border-[0.5px] border-solid border-blue-400 w-full"
+                  />
+                  <router-link to="/team-single">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Team-Single</span
+                    >
+                  </router-link>
+                </div>
+                <div
+                  class="flex flex-col items-start gap-2 border-r-2 border-solid border-blue-400"
+                >
+                  <router-link to="/blog">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Blog</span
+                    >
+                  </router-link>
+                  <hr
+                    class="border-[0.5px] border-solid border-blue-400 w-full"
+                  />
+                  <router-link to="/blog-single">
+                    <span
+                      class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                      >Blog-Single</span
+                    >
+                  </router-link>
+                </div>
+                <router-link to="/location">
                   <span
-                    class="text-xs text-black font-semibold whitespace-nowrap"
-                    style="text-shadow: 1px 1px 5px #5c8692"
-                    >Service-Single</span
+                    class="text-xs text-black font-semibold whitespace-nowrap p-3"
+                    >Location</span
                   >
                 </router-link>
               </div>
