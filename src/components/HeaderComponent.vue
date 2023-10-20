@@ -23,7 +23,7 @@
           <router-link to="/">
             <li class="cursor-pointer">Home</li>
           </router-link>
-          <router-link>
+          <div>
             <li
               class="flex justify-between items-center gap-1 cursor-pointer relative"
               @mouseover="isOver = true"
@@ -104,7 +104,7 @@
                 </router-link>
               </div>
             </li>
-          </router-link>
+          </div>
 
           <router-link to="/about">
             <li class="cursor-pointer">About</li>
