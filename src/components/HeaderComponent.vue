@@ -23,7 +23,7 @@
           <router-link to="/">
             <li class="cursor-pointer">Home</li>
           </router-link>
-          <router-link to="/pages">
+          <router-link>
             <li
               class="flex justify-between items-center gap-1 cursor-pointer relative"
               @mouseover="isOver = true"
